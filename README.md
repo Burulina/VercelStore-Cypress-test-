@@ -18,8 +18,8 @@ npm install
 ``` console
 npm run cy_open
 ```
-- choose ***"E2E testing"*** and after ***"Chrome"*** in opened window;
-- click ***"Start E2E testing in Chrome"***;
+- choose ***"E2E testing"*** and after ***"Chrome"*** (or ***"Electron"***, or ***"Edge"*** ) in opened window;
+- click ***"Start E2E testing"***;
 - click on ***"*.cy.js"*** file in opened window.
 
 2. To run all auto tests manually on local machine with command line:
