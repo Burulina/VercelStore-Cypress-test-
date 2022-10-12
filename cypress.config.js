@@ -8,5 +8,6 @@ module.exports = defineConfig({
     experimentalSessionAndOrigin: true,
   },
   viewportWidth: 1920,
-  viewportHeight: 1080
+  viewportHeight: 1080,
+  defaultCommandTimeout : 10000
 });

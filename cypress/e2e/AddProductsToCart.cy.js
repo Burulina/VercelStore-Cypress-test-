@@ -58,7 +58,7 @@ describe('E-commerce VercelStore testing', () => {
     cy.get('#checkout_shipping_address_zip').type('21012');
     cy.get('#continue_button').click();
     cy.get('#main-header').should('be.visible').and('contain.text', 'Shipping method');
-    cy.get('#checkout_shipping_rate_id_usps-prioritymailinternational-58_26', {timeout: 10000}).check();
+    cy.get('#checkout_shipping_rate_id_usps-prioritymailinternational-58_26').check();
     cy.get('#continue_button').click();
     cy.get('#main-header').should('be.visible').and('contain.text', 'Payment');
     cy.get('.section--payment-method p').should('be.visible').and('contain.text', 'This store can’t accept payments right now.');

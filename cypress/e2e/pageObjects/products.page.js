@@ -24,7 +24,7 @@ class ProductsPage {
     }
 
     getProductName (name) {
-        return cy.get(productName, {timeout: 6000}).contains(name);
+        return cy.get(productName).contains(name);
     }
    
     getProductPrice () {
